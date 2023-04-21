@@ -1,7 +1,8 @@
 
 (ns reagent.api
     (:require [reagent.core       :as core]
-              [reagent.dom        :as dom]
+              [reagent.dom.client :as dom.client]
+              [reagent.dom.server :as dom.server]
               [reagent.lifecycles :as lifecycles]
               [reagent.references :as references]
               [reagent.utils      :as utils]))
@@ -21,8 +22,11 @@
 (def as-element        core/as-element)
 (def ratom             core/atom)
 
-; reagent.dom
-(def render dom/render)
+; reagent.dom.client
+(def create-root dom.client/create-root)
+
+; reagent.dom.server
+(def render-to-string dom.server/render-to-string)
 
 ; reagent.utils
 (def component? utils/component?)
