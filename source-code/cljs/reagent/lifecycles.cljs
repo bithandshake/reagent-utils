@@ -42,8 +42,8 @@
 
 (defn lifecycles
   ; @warning
-  ; In product releases don't use the component-id parameter! You can find more
-  ; informations below.
+  ; In product releases don't use the component-id parameter! Using the component-id
+  ; parameter is designed for prevents components reloading when they rapidly remount.
   ;
   ; @param (keyword or string)(opt) component-id
   ; @param (map) lifecycles
