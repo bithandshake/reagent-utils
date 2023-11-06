@@ -1,5 +1,9 @@
 
-# reagent.api ClojureScript namespace
+### reagent.api
+
+Functional documentation of the reagent.api ClojureScript namespace
+
+---
 
 ##### [README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > reagent.api
 
@@ -10,6 +14,8 @@
 - [component?](#component)
 
 - [lifecycles](#lifecycles)
+
+---
 
 ### arguments
 
@@ -208,5 +214,5 @@ is turned on.
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 
