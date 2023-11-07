@@ -27,6 +27,9 @@ You can track the changes of the <strong>reagent-api</strong> library [here](CHA
 
 # Usage
 
+> Some parameters of the following functions and some further functions are not discussed in this file.
+  To learn more about the available functionality, check out the [functional documentation](documentation/COVER.md)!
+
 ### Index
 
 - [How to typecheck a Reagent component?](#how-to-typecheck-a-reagent-component)
