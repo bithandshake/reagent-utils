@@ -54,7 +54,7 @@
   ; ... if the mount-id (it's not the same as the component-id) changed during
   ;     this short while, it's declared as a rapid remounting event and the
   ;     unmounting function will be ignored.
-  (letfn [(f [] (when (= mount-id (get @lifecycles.state/MOUNTED-COMPONENTS component-id))
-                      (if component-will-unmount (component-will-unmount))
-                      (swap! lifecycles.state/MOUNTED-COMPONENTS dissoc component-id)))]
-         (.setTimeout js/window f hot-reload-threshold)))
+  (letfn [(f0 [] (when (= mount-id (get @lifecycles.state/MOUNTED-COMPONENTS component-id))
+                       (if component-will-unmount (component-will-unmount))
+                       (swap! lifecycles.state/MOUNTED-COMPONENTS dissoc component-id)))]
+         (.setTimeout js/window f0 hot-reload-threshold)))
