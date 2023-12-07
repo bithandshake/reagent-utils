@@ -50,7 +50,7 @@
   ; @param (string) mount-id
   [component-id {:keys [component-will-unmount]} {:keys [hot-reload-threshold] :or {hot-reload-threshold 10}} mount-id]
   ; To recognise rapid remounting ...
-  ; ... the unmounting function has to be delayed (e.g. 10ms).
+  ; ... the unmounting function has to be delayed (e.g., 10ms).
   ; ... if the mount-id (it's not the same as the component-id) changed during
   ;     this short while, it's declared as a rapid remounting event and the
   ;     unmounting function will be ignored.

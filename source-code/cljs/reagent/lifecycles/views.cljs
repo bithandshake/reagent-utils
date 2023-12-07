@@ -22,7 +22,7 @@
   ;   Default: 10
   ;  :prevent-hot-reload? (boolean)(opt)
   ;   Prevents the component reloading when it rapidly remounts by a hot code
-  ;   reloader (e.g. Shadow-CLJS).
+  ;   reloader (e.g., Shadow-CLJS).
   ;   Requires a constant component ID!
   ;   Default: false}
   ;

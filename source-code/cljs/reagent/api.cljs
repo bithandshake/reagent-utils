@@ -10,23 +10,23 @@
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
-; reagent.core
+; @redirect (reagent.core)
 (def adapt-react-class core/adapt-react-class)
 (def after-render      core/after-render)
 (def as-element        core/as-element)
 (def ratom             core/atom)
 
-; reagent.core.utils
+; @redirect (reagent.core.utils)
 (def component? core.utils/component?)
 
-; reagent.lifecycles.views
+; @redirect (reagent.lifecycles.views)
 (def lifecycles lifecycles.views/component)
 
-; reagent.dom.client
+; @redirect (reagent.dom.client)
 (def create-root dom.client/create-root)
 
-; reagent.dom.server
+; @redirect (reagent.dom.server)
 (def render-to-string dom.server/render-to-string)
 
-; reagent.references.utils
+; @redirect (reagent.references.utils)
 (def arguments references.utils/arguments)
