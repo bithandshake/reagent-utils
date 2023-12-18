@@ -10,7 +10,7 @@ for working with Reagent.
 
 ```
 {:deps {bithandshake/reagent-api {:git/url "https://github.com/bithandshake/reagent-api"
-                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
+                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
 ```
 
 ### Current version
