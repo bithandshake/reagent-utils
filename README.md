@@ -3,8 +3,7 @@
 
 ### Overview
 
-The <strong>reagent-api</strong> library is a set of simple development tools made
-for working with Reagent.
+The <strong>reagent-api</strong> is a set of development tools made for working with Reagent in Clojure projects.
 
 ### deps.edn
 
