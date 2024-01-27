@@ -3,7 +3,6 @@
     (:require [reagent.core             :as core]
               [reagent.core.utils       :as core.utils]
               [reagent.dom.client       :as dom.client]
-              [reagent.dom.server       :as dom.server]
               [reagent.lifecycles.views :as lifecycles.views]
               [reagent.references.utils :as references.utils]))
 
@@ -24,9 +23,6 @@
 
 ; @redirect (reagent.dom.client)
 (def create-root dom.client/create-root)
-
-; @redirect (reagent.dom.server)
-(def render-to-string dom.server/render-to-string)
 
 ; @redirect (reagent.references.utils)
 (def arguments references.utils/arguments)
