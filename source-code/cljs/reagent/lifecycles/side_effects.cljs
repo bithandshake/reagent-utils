@@ -34,7 +34,7 @@
   ; @ignore
   ;
   ; @description
-  ; Sets up a delayed unmounting process, waiting for 10 milliseconds to see
+  ; Sets up a delayed unmounting process for waiting for 10 milliseconds to see
   ; if the 'mount-id' has changed during that time. If it hasn't changed,
   ; it proceeds to execute the 'component-will-unmount' function if it exists,
   ; and then removes the component's identifier from a list of mounted components.
