@@ -7,7 +7,7 @@
 
 (defn arguments
   ; @description
-  ; Takes the arguments of a Reagent component and returns them as a list.
+  ; Returns the argument list of the given Reagent component object.
   ;
   ; @param (Reagent component object) this
   ; Expected to be a reference to a Reagent component.
@@ -16,5 +16,5 @@
   ; (reagent.core/create-class {:component-did-update (fn [this] (arguments this))})
   ;
   ; @return (list)
-  [this]
-  (-> this core/argv rest))
+  [n]
+  (-> n core/argv rest))
