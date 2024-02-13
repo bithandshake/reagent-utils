@@ -1,23 +1,21 @@
 
-(ns reagent.core.utils)
+(ns reagent.tools.core.utils)
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
 (defn component?
   ; @description
-  ; Checks if the input 'n' is a vector containing the first element as a function
-  ; (indicating it might be a component).
-  ; Returns TRUE if the conditions are met, and FALSE otherwise.
+  ; Returns TRUE if the given 'n' value is a vector containing the first element as a function (indicating it might be a Reagent component).
   ;
   ; @param (*)
   ;
-  ; @example
+  ; @usage
   ; (component? [:div "..."])
   ; =>
   ; false
   ;
-  ; @example
+  ; @usage
   ; (defn my-component [] ...)
   ; (component? [my-component "..."])
   ; =>
