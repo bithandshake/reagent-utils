@@ -3,7 +3,7 @@
 
 ### Overview
 
-The <strong>reagent-utils</strong> is a set of Reagent utility functions and development tools.
+The <strong>reagent-utils</strong> is a set of utility functions and development tools for the Reagent ClojureScript library.
 
 ### deps.edn
 
