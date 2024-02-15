@@ -13,13 +13,13 @@
   ; ... the component (identified by the given component ID) is already mounted,
   ; ... the ':prevent-hot-reload?' property is provided as TRUE.
   ;
-  ; @param (keyword) component-id
+  ; @param (keyword) mount-id
   ; @param (map) component-spec
   ; {:component-did-mount (function)(opt)
+  ;  :component-id (keyword)(opt)
   ;  :prevent-hot-reload? (boolean)(opt)
   ;  ...}
-  ; @param (keyword) mount-id
-  [component-id {:keys [component-did-mount prevent-hot-reload?]} mount-id]
+  [mount-id {:keys [component-did-mount component-id prevent-hot-reload?]}]
   ; @param (list of *) params
   (fn [& params]
       (let [mounted-as (get @lifecycles.state/MOUNTED-COMPONENTS component-id)]
@@ -36,15 +36,15 @@
   ; ... the component (identified by the given component ID) has been re-mounted during the hot reload threshold period,
   ; ... the ':prevent-hot-reload?' property is provided as TRUE.
   ;
-  ; @param (keyword) component-id
+  ; @param (keyword) mount-id
   ; @param (map) component-spec
-  ; {:component-will-unmount (function)(opt)
+  ; {:component-id (keyword)(opt)
+  ;  :component-will-unmount (function)(opt)
   ;  :hot-reload-threshold (ms)(opt)
   ;   Default: 10
   ;  :prevent-hot-reload? (boolean)(opt)
   ;  ...}
-  ; @param (keyword) mount-id
-  [component-id {:keys [component-will-unmount hot-reload-threshold prevent-hot-reload?] :or {hot-reload-threshold 10}} mount-id]
+  [mount-id {:keys [component-id component-will-unmount hot-reload-threshold prevent-hot-reload?] :or {hot-reload-threshold 10}}]
   ; @param (list of *) params
   (fn [& params]
       (letfn [(f0 [] (let [mounted-as (get @lifecycles.state/MOUNTED-COMPONENTS component-id)]
