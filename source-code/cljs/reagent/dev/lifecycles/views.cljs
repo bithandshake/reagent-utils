@@ -8,7 +8,7 @@
 
 (defn create-class
   ; @description
-  ; Implements the Reagent 'create-class' function and extends it with additional options such as hot reload preventing.
+  ; Implements the 'reagent.core/create-class' function and extends it with additional options such as hot reload preventing.
   ;
   ; @param (map) spec
   ; {:component-id (keyword)(opt)
