@@ -1,6 +1,6 @@
 
 (ns reagent.dev.lifecycles.views
-    (:require [reagent.core :as reagent]
+    (:require [reagent.core                        :as reagent]
               [reagent.dev.lifecycles.side-effects :as lifecycles.side-effects]))
 
 ;; ----------------------------------------------------------------------------
