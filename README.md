@@ -8,17 +8,17 @@ The <strong>reagent-utils</strong> is a set of utility functions and development
 ### deps.edn
 
 ```
-{:deps {bithandshake/reagent-utils {:git/url "https://github.com/bithandshake/reagent-utils"
+{:deps {mt-utilities/reagent-utils {:git/url "https://github.com/mt-utilities/reagent-utils"
                                     :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
 ```
 
 ### Current version
 
-Check out the latest commit on the [release branch](https://github.com/bithandshake/reagent-utils/tree/release).
+Check out the latest commit on the [release branch](https://github.com/mt-utilities/reagent-utils/tree/release).
 
 ### Documentation
 
-The <strong>reagent-utils</strong> functional documentation is [available here](https://bithandshake.github.io/reagent-utils).
+The <strong>reagent-utils</strong> functional documentation is [available here](https://mt-utilities.github.io/reagent-utils).
 
 ### Changelog
 
