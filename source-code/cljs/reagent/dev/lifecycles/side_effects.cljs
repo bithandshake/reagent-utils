@@ -1,7 +1,7 @@
 
 (ns reagent.dev.lifecycles.side-effects
     (:require [reagent.dev.lifecycles.state :as lifecycles.state]))
-
+ 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
